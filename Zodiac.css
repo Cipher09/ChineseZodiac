@@ -1,0 +1,13 @@
+body  {
+          background: linear-gradient(to bottom, #ff0000 0%, #ffffff 115%);
+      }
+#Title  {
+          font-family: cursive;
+          font-size: 80px
+
+        }
+#pic    {
+  height: 200px;
+    width: 500px;
+
+        }
