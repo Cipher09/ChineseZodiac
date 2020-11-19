@@ -1,0 +1,76 @@
+  <html>
+  <link rel ="stylesheet" href ="Zodiac.css">
+    <head>
+      <title>chineseZodiac.html</title>
+      <center>
+      <script>
+        function animalFinder()
+        {
+          var year = document.getElementById('year').value
+          if(year % 12 == 0 )
+          {
+                document.getElementById('pic').innerHTML = "<img src = 'Monkey.jpg'>";
+          }
+          if(year % 12 == 1)
+          {
+            document.getElementById('pic').innerHTML = "<img src = 'Rooster.jpg'>";
+          }
+          if(year % 12 == 2)
+          {
+            document.getElementById('pic').innerHTML = "<img src = 'dog.jpg'>";
+          }
+          if(year % 12 == 3)
+          {
+            document.getElementById('pic').innerHTML = "<img src = 'Pig.jpg'>";
+          }
+
+          if(year % 12 == 4)
+          {
+            document.getElementById('pic').innerHTML = "<img src = 'Mouse.jpg'>";
+          }
+          if(year % 12 == 5)
+          {
+            document.getElementById('pic').innerHTML = "<img src = ' Ox.jpg'>";
+          }
+          if(year % 12 == 6)
+          {
+            document.getElementById('pic').innerHTML = "<img src = 'Tiger.jpg'>"
+          }
+          if(year % 12 == 7)
+          {
+            document.getElementById('pic').innerHTML = "<img src = 'Rabbit.jpg'>"
+          }
+          if(year % 12 == 8)
+          {
+            document.getElementById('pic').innerHTML = "<img src = 'Dragon.jpg'>"
+          }
+          if(year % 12 == 9)
+          {
+            document.getElementById('pic').innerHTML = "<img src = 'Snake.jpg'>"
+          }
+          if(year % 12 == 10)
+          {
+            document.getElementById('pic').innerHTML = "<img src = 'Horse.jpg'>"
+          }
+          if(year % 12 == 11)
+          {
+            document.getElementById('pic').innerHTML = "<img src = 'Goat.jpg'>"
+
+          }
+
+          //1) get the year from the user
+          //2 Using "if" statement  and % (mod) dertermine animal
+          //3) Display animal
+
+        }
+        </script>
+      </head>
+      <body>
+          <h2 id ="Title"> ChineseZodiac</h2>
+          <input type= "text" id = "year">
+          <input id = "button"type= "button" value= "Enter" onclick= "animalFinder()">
+          <br>
+          <span id ='pic'></span>
+        </center>
+        </body>
+      <html>
